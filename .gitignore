@@ -160,4 +160,8 @@ cython_debug/
 .idea/
 volumes/
 models/
-data/
+dataset/
+artifacts/
+wandb/
+/dataset
+.dvc
