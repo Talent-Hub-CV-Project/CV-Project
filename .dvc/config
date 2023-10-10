@@ -2,3 +2,5 @@
     remote = main
 ['remote "main"']
     url = gdrive://19k0xp26mDLCLV_XM9mKLmvmTmgUXZDu4
+    gdrive_use_service_account = true
+    gdrive_service_account_user_email = dvc-test@divine-beanbag-397513.iam.gserviceaccount.com
