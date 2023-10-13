@@ -165,3 +165,4 @@ artifacts/
 wandb/
 /dataset
 
+.DS_Store

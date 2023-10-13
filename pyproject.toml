@@ -8,7 +8,23 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 wandb = "^0.15.12"
+ultralytics = "^8.0.198"
+torch = [
+  { version = "1.13.0+cu120", source = "torch_cu120"}
+]
+torchvision = [
+  { version = "0.14.0+cu120", source = "torch_cu120"},
+]
 
+# https://github.com/python-poetry/poetry/issues/6409#issuecomment-1686189152
+[[tool.poetry.source]]
+name = "torch_cu120"
+url = "https://download.pytorch.org/whl/cu120"
+priority = "supplemental"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
 
 [tool.poetry.group.dev.dependencies]
 dvc-gdrive = "^2.20.0"
