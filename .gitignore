@@ -166,3 +166,8 @@ wandb/
 /dataset
 
 .DS_Store
+.dvc
+bus.jpg
+yolov8n.pt
+*.pth
+*.jpg
