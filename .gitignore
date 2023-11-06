@@ -171,3 +171,7 @@ bus.jpg
 yolov8n.pt
 *.pth
 *.jpg
+
+
+divine-beanbag-*
+
